@@ -1,0 +1,168 @@
+:host {
+  width: 100%;
+  display: block;
+
+  .cards {
+    height: 550px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+
+    .leftCard {
+      width: 570px;
+      height: 440px;
+      margin-top: 50px;
+      background-image: url(https://demo2.chethemes.com/pizzaro/wp-content/uploads/2016/09/2.jpg);
+
+      .title {
+        margin-top: 5%;
+        margin-left: 5%;
+        font-size: 3em;
+        font-family: "Yanone Kaffeesatz";
+        color: #fff;
+        margin-bottom: 0px;
+      }
+      .subtitle {
+        margin-left: 5%;
+        font-size: 2em;
+        font-family: "Yanone Kaffeesatz";
+        font-weight: lighter;
+        color: #fff;
+      }
+      .button {
+        margin-left: 5%;
+        font-size: 1.5em;
+        font-family: "Yanone Kaffeesatz";
+        color: #fff;
+        background-color: #c00a27;
+        padding: 10px;
+        border-radius: 10px;
+      }
+      &:hover {
+        transition: transform 0.7s;
+        transform: scale(1.1);
+      }
+    }
+
+    .rightCard {
+      width: 570px;
+      height: 440px;
+      margin-top: 50px;
+      margin-left: 30px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      .upperCard {
+        height: 210px;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        .leftUpperCard {
+          width: 270px;
+          background-image: url(https://demo2.chethemes.com/pizzaro/wp-content/uploads/2016/09/5-1.jpg);
+          &:hover {
+            transition: transform 0.7s;
+            transform: scale(1.1);
+          }
+          .titleLeft {
+            font-weight: bold;
+            font-size: 3em;
+            margin-top: 5%;
+            margin-left: 47%;
+            font-family: "Yanone Kaffeesatz";
+            color: #fff;
+            margin-bottom: 0px;
+          }
+          .titleLeftT {
+            font-weight: 100;
+            font-size: 2em;
+            margin-top: -1%;
+            margin-left: 53%;
+            font-family: "Yanone Kaffeesatz";
+            color: #fff;
+            margin-bottom: 0px;
+          }
+          .titleLeftTT {
+            font-weight: bold;
+            font-style: oblique;
+            font-size: 0.7em;
+            margin-top: 1%;
+            margin-left: 55%;
+            margin-right: 10%;
+            font-family: "Yanone Kaffeesatz";
+            color: #fff;
+            margin-bottom: 0px;
+          }
+        }
+
+        .rightUpperCard {
+          width: 270px;
+          background-image: url(https://demo2.chethemes.com/pizzaro/wp-content/uploads/2016/09/4-1.jpg);
+          &:hover {
+            transition: transform 0.7s;
+            transform: scale(1.1);
+          }
+          .rightLeft {
+            letter-spacing: -2px;
+            font-weight: bold;
+            font-size: 2.5em;
+            margin-top: 5%;
+            margin-left: 55%;
+            font-family: "Yanone Kaffeesatz";
+            color: #fff;
+            margin-bottom: 0px;
+          }
+          .rightLeftT {
+            font-weight: bold;
+            letter-spacing: -2px;
+            font-weight: 100;
+            font-size: 2.5em;
+            margin-top: -5%;
+            margin-left: 48%;
+            font-family: "Yanone Kaffeesatz";
+            color: #fff;
+            margin-bottom: 0px;
+          }
+          .rightLeftTT {
+            font-style: oblique;
+            font-size: 1.2em;
+            margin-top: 1%;
+            margin-left: 55%;
+            margin-right: 10%;
+            font-family: "Yanone Kaffeesatz";
+            color: #fff;
+            margin-bottom: 0px;
+          }
+        }
+      }
+      .lowerCard {
+        height: 210px;
+        width: 100%;
+        background-image: url(https://demo2.chethemes.com/pizzaro/wp-content/uploads/2016/09/3-1.jpg);
+
+        &:hover {
+          transition: transform 0.7s;
+          transform: scale(1.1);
+        }
+        .above {
+          margin-top: 5%;
+          .titleL {
+            margin-left: 25%;
+            font-size: 2em;
+            font-family: "Yanone Kaffeesatz";
+            font-weight: 300;
+            color: #fdba3e;
+          }
+          .subtitleL {
+            margin-left: 2%;
+            font-size: 3em;
+            font-family: "Yanone Kaffeesatz";
+            font-weight: lighter;
+            color: #fff;
+          }
+        }
+      }
+    }
+  }
+}

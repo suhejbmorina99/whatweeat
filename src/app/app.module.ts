@@ -3,16 +3,26 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { HeaderComponent } from './header/header.component';
+import { SlidersComponent } from './sliders/sliders.component';
+import { CardsComponent } from './cards/cards.component';
+import { PickedFoodComponent } from './picked-food/picked-food.component';
+import { CardModule } from 'primeng/card';
+
+import {ButtonModule} from 'primeng/button';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    HeaderComponent,
+    SlidersComponent,
+    CardsComponent,
+    PickedFoodComponent,
+    FooterComponent,
   ],
-  imports: [
-    BrowserModule,
-    AppRoutingModule
-  ],
+  imports: [BrowserModule, AppRoutingModule, CardModule, ButtonModule],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}
