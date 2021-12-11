@@ -41,3 +41,11 @@ mongoose
 app.listen(process.env.PORT || 3000, () => {
   console.log("Server is started now");
 });
+
+if (process.env.NODE_ENV === 'production') {
+	app.use(express.static('client/build'));
+}
+
+app.get('*', (request, response) => {
+	response.sendFile(path.join(__dirname, 'client/build', 'index.html'));
+});
