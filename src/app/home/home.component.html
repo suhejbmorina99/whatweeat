@@ -1,0 +1,238 @@
+<!-- Header Section -->
+<div class="header">
+  <div class="underHeader">
+    <div class="logo">
+      <h2>𝓲𝓶𝓫𝓾𝓼 𝓕𝓸𝓸𝓭</h2>
+    </div>
+    <div class="orderContact">
+      <p class="orderText">ℂ𝕒𝕝𝕝 𝕒𝕟𝕕 𝕆𝕣𝕕𝕖𝕣 𝕚𝕟</p>
+      <p class="orderNumber">049-700-700</p>
+    </div>
+  </div>
+  <hr class="lineThrough" />
+  <div class="grid">
+    <div class="col">
+      <img
+        class="availableFood"
+        src="../../assets/icons8-pizza-64.png"
+        alt=""
+      />
+      <a href="#space" class="textIcon">Pizza</a>
+    </div>
+    <div class="col">
+      <img
+        class="availableFood"
+        src="../../assets/icons8-hamburger-64.png"
+        alt=""
+      />
+      <a href="#space" class="textIcon">Fast Food</a>
+    </div>
+    <div class="col">
+      <img
+        class="availableFood"
+        src="../../assets/icons8-healthy-food-64.png"
+        alt=""
+      />
+      <a href="#space" class="textIcon">Healthy</a>
+    </div>
+    <div class="col">
+      <img class="availableFood" src="../../assets/icons8-food-64.png" alt="" />
+      <a href="#space" class="textIcon">Pasta</a>
+    </div>
+    <div class="col">
+      <img
+        class="availableFood"
+        src="../../assets/icons8-kebab-64.png"
+        alt=""
+      />
+      <a href="#space" class="textIcon">Kebab</a>
+    </div>
+    <div class="col">
+      <img
+        class="availableFood"
+        src="../../assets/icons8-drink-64.png"
+        alt=""
+      />
+      <a href="#space" class="textIcon">Drinks & Coffee</a>
+    </div>
+  </div>
+</div>
+
+<!-- Slider Section -->
+<div class="slider">
+  <div class="backgroundIMG">
+    <img src="../../assets/011-HomePage.jpg" alt="" />
+  </div>
+</div>
+
+<!-- Card Section -->
+<div class="cards">
+  <div class="leftCard">
+    <h3 class="title">GRILLED CHICKEN</h3>
+    <h4 class="subtitle">SUMMER PIZZA</h4>
+    <span class="button">HOT &amp; SPICY</span>
+  </div>
+  <div class="rightCard">
+    <div class="upperCard">
+      <div class="leftUpperCard">
+        <p class="titleLeft">FREE</p>
+        <p class="titleLeftT">FRIES</p>
+        <p class="titleLeftTT">FOR ONLINE ORDERS IN <br />APODEL</p>
+      </div>
+      <div class="rightUpperCard">
+        <p class="rightLeft">ICED</p>
+        <p class="rightLeftT">COFFEE</p>
+        <p class="rightLeftTT">SUMMERS</p>
+      </div>
+    </div>
+    <div class="lowerCard">
+      <p class="above">
+        <span class="titleL">ORDER</span>
+        <span class="subtitleL">ONLINE</span>
+      </p>
+    </div>
+  </div>
+</div>
+
+<!-- Picked Food Section -->
+<div id="space" class="space">
+  <p>Goes Great With</p>
+  <hr class="line" />
+  <hr class="lineThrough" />
+</div>
+<div class="pickedFood">
+  <p-card
+    class="cards"
+    header="Pepperoni Pizza"
+    [style]="{ width: '300px' }"
+    styleClass="p-card-shadow"
+  >
+    <ng-template pTemplate="header">
+      <img alt="Card" src="../../assets/pizza-1-300x300.png" />
+    </ng-template>
+    <p>Extra-virgin olive oil, garlic, mozzarella cheese, onions...</p>
+    <ng-template pTemplate="footer">
+      <button
+        pButton
+        type="button"
+        label="Select Options"
+        icon="pi pi-check-circle"
+        class="p-button-danger"
+        badge="8"
+        badgeClass="p-badge-info"
+      ></button>
+    </ng-template>
+  </p-card>
+  <p-card
+    class="cards"
+    header="Trio Cheese"
+    [style]="{ width: '300px' }"
+    styleClass="p-card-shadow"
+  >
+    <ng-template pTemplate="header">
+      <img alt="Card" src="../../assets/pizza-2-300x300.png" />
+    </ng-template>
+    <p>Mouth watering pepperoni, cabanossi, mushroom...</p>
+    <ng-template pTemplate="footer"
+      ><button
+        pButton
+        type="button"
+        label="Select Options"
+        icon="pi pi-check-circle"
+        class="p-button-danger"
+        badge="8"
+        badgeClass="p-badge-info"
+      ></button>
+    </ng-template>
+  </p-card>
+  <p-card
+    class="cards"
+    header="Apricot Chicken"
+    [style]="{ width: '300px' }"
+    styleClass="p-card-shadow"
+  >
+    <ng-template pTemplate="header">
+      <img alt="Card" src="../../assets/pizza-3-300x300.png" />
+    </ng-template>
+    <p>Crispy bacon, tasty ham, pineapple, onion and...</p>
+    <ng-template pTemplate="footer">
+      <button
+        pButton
+        type="button"
+        label="Select Options"
+        icon="pi pi-check-circle"
+        class="p-button-danger"
+        badge="8"
+        badgeClass="p-badge-info"
+      ></button>
+    </ng-template>
+  </p-card>
+  <p-card
+    class="cards"
+    header="Italiano Original"
+    [style]="{ width: '300px' }"
+    styleClass="p-card-shadow"
+  >
+    <ng-template pTemplate="header">
+      <img alt="Card" src="../../assets/pizza-4-300x300.png" />
+    </ng-template>
+    <p>Ricotta, sun dried tomatoes, garlic, mozzarella cheese...</p>
+    <ng-template pTemplate="footer">
+      <button
+        pButton
+        type="button"
+        label="Select Options"
+        icon="pi pi-check-circle"
+        class="p-button-danger"
+        badge="8"
+        badgeClass="p-badge-info"
+      ></button
+    ></ng-template>
+  </p-card>
+</div>
+
+<!-- Footer Section -->
+
+<div class="footer">
+  <div class="socialMedia">
+    <div class="media">
+      <i class="pi pi-facebook" style="font-size: 2rem"></i>
+      <i class="pi pi-apple" style="font-size: 2rem"></i>
+      <i class="pi pi-twitter" style="font-size: 2rem"></i>
+      <i class="pi pi-github" style="font-size: 2rem"></i>
+      <i class="pi pi-youtube" style="font-size: 2rem"></i>
+    </div>
+  </div>
+  <div class="logo">
+    <h2 class="text">𝓲𝓶𝓫𝓾𝓼 𝓕𝓸𝓸𝓭</h2>
+  </div>
+  <div class="contact">
+    <div class="info">
+      <span class="textContact">Imbus Order Food App</span>
+      <span class="redcolor"> | </span>
+      <span class="textContact"
+        >901-947 South Drive, Houston, TX 77057, USA</span
+      >
+      <span class="redcolor"> | </span>
+      <span class="textContact">Telephone: +1 555 1234</span>
+      <span class="redcolor"> | </span>
+      <span class="textContact">Telephone: +1 555 1234</span>
+    </div>
+  </div>
+  <div class="map">
+    <div class="button">
+      <div class="backG">
+        <i
+          class="pi pi-map"
+          style="font-size: 1.5rem; color: white; margin-right: 12px"
+        ></i>
+        <span class="textC">Find us on Map</span>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Scroll to the top Button -->
+<button (click)="scrollToTop()" class="scroll-to-top" *ngIf="pageYoffset > 0">
+     <i class="pi pi-arrow-up"></i>
+</button>

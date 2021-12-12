@@ -11,6 +11,7 @@ import { CardModule } from 'primeng/card';
 
 import {ButtonModule} from 'primeng/button';
 import { FooterComponent } from './footer/footer.component';
+import { HomeComponent } from './home/home.component';
 
 @NgModule({
   declarations: [
@@ -20,6 +21,7 @@ import { FooterComponent } from './footer/footer.component';
     CardsComponent,
     PickedFoodComponent,
     FooterComponent,
+    HomeComponent,
   ],
   imports: [BrowserModule, AppRoutingModule, CardModule, ButtonModule],
   providers: [],
